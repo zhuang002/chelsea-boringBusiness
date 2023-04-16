@@ -34,6 +34,8 @@ public class Main {
 				System.out.println((current.col-200)+" "+ (-(current.row+1)) +" DANGER");
 				break;
 			}
+			dir = sc.next().charAt(0);
+			step = sc.nextInt();
 		}
 		
 		
